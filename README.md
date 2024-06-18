@@ -1,4 +1,4 @@
-# python-software-serial
+# pyqt-software-serial
 
 A GUI program using PyQt5 to perform serial communication between the GUI and a microcontroller. Serial communication allows for writing to or reading from the microcontroller.
 
