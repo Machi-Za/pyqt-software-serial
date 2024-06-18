@@ -1,11 +1,11 @@
-import IO
+import libs.IO
 import time
 from Main_Designer import Ui_Main
 from PyQt5 import QtWidgets
 from PyQt5.QtSerialPort import QSerialPortInfo
 
 # Initialize the Port object from the IO module
-Port = IO.Ports()
+Port = libs.IO.Ports()
 
 class Main(QtWidgets.QMainWindow, Ui_Main):
     # to handle data received from the serial port
