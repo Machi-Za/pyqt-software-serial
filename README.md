@@ -15,7 +15,7 @@ pip install PyQt5Designer
 
 ### Usage
 
-After that fair duplicate the library to your venture and grant the record a title (e.g. 'IO.py').
+After that fair duplicate the library to your venture and grant the record a title (e.g. `IO.py`).
 
 ```Python
 # Initialize the Port object from the IO module
@@ -33,11 +33,11 @@ port.portName()   # to update the list of available ports
 
 ```
 
-For a more complete usage example, refer to 'main.py'.
+For a more complete usage example, refer to `main.py`.
 To run the above source code, follow these steps:
 
-1. Upload the program located at 'arduino/softwareserial/softwareserial.ino' to the microcontroller.
-2. Next, run program.py.
+1. Upload the program located at `arduino/softwareserial/softwareserial.ino` to the microcontroller.
+2. Next, run `program.py`.
 3. Select the port and baud rate.
 4. Once selected, press the connect button.
 5. The application should now be operational.
